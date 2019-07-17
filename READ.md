@@ -94,18 +94,19 @@ In cases wherein their operating system does not support a particular character,
 The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
  Тег <li> включает в себя два атрибута - тип и значение. Атрибут type можно использовать для изменения типа нумерации для любого элемента списка. Атрибут значения может изменить числовой индекс.
   Example:
+  <!--
   <ol>
 <li value="30"> makes this list item number 30.
 <li value="40"> makes this list item number 40.
 <li> makes this list item number 41.
 </ol>
-  
+  -->
   We can specify the list’s style using the type attribute, with the following values:
 
 type attribute values and their corresponding list counter types
 
-<ol type=""> values	| Equivalent list-style-type
---------------------|-----------------------------
+ol type="" values	| Equivalent list-style-type
+------------------|-----------------------------
 type="1" |	decimal (default style)
 type="a"	| lower-alpha
 type="A"	| upper-alpha
@@ -133,7 +134,7 @@ The numerical values are taken from the ASCII values for the various characters,
 10 pcs 5 50
 
 Answer:
-
+<!--
 <table> 
 <tr> 
 <td>50 pcs</td> 
@@ -170,6 +171,7 @@ Answer:
 <td>50</td> 
 </tr> 
 </table>
+-->
 24) What is the advantage of grouping several checkboxes together?
 
 Although checkboxes don’t affect one another, grouping checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
