@@ -138,6 +138,7 @@ To create text with different colors, use the <font color=”color”>…</font>
 Почему существуют числовые и именованные значения сущностей символов?
 
 <a href="https://www.w3schools.com/charsets/ref_html_ascii.asp">Explaining</a>
+<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">List of XML and HTML character entity references</a>
 The numerical values are taken from the ASCII values for the various characters, but these can be difficult to remember. Because of this, named character entity values were created to make it easier for web page designers to use.
 
 Числовые значения взяты из значений ASCII для различных символов, но их может быть трудно запомнить. Из-за этого были созданы значения именованных символьных сущностей для облегчения использования дизайнерами веб-страниц.
