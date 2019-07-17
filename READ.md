@@ -119,16 +119,28 @@ type="I"	| upper-roman
 Style sheets enable you to build consistent, transportable, and well-defined style templates. These templates can be linked to several different web pages, making it easy to maintain and change the look and feel of all the web pages within site.
 
 20) State  bullet types available in HTML 
+Что такое таблицы стилей?
 
 With ordered lists, you can select to use some different list types including alphabetical and Roman numerals. The type attribute for unordered lists can be set to disc, square, or circle.
+С упорядоченными списками вы можете выбрать использование нескольких различных типов списков, включая алфавитные и римские цифры. Атрибут типа для неупорядоченных списков может быть установлен на диск, квадрат или кружок.
+<a href="https://www.w3schools.com/html/html_lists.asp">HTML Lists</a>
 
 21) How do you create multicolored text in a webpage?
+Как вы создаете многоцветный текст на веб-странице?
+
+<a href="https://www.w3schools.com/tags/att_font_color.asp">Example</a>
 
 To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word.
 
-22) Why are there both numerical and named character entity values?
+Чтобы создать текст с разными цветами, используйте теги <font color = ”color”>… </ font> для каждого символа, к которому вы хотите применить цвет. Вы можете использовать эту комбинацию тегов столько раз, сколько необходимо, окружая один символ или целое слово.
 
+22) Why are there both numerical and named character entity values?
+Почему существуют числовые и именованные значения сущностей символов?
+
+<a href="https://www.w3schools.com/charsets/ref_html_ascii.asp">Explaining</a>
 The numerical values are taken from the ASCII values for the various characters, but these can be difficult to remember. Because of this, named character entity values were created to make it easier for web page designers to use.
+
+Числовые значения взяты из значений ASCII для различных символов, но их может быть трудно запомнить. Из-за этого были созданы значения именованных символьных сущностей для облегчения использования дизайнерами веб-страниц.
 
 23) Write an HTML table tag sequence that outputs the following:
 50 pcs 100 500
