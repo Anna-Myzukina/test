@@ -83,12 +83,34 @@ Yes, older HTML files are compliant to the HTML standard. Most older files work 
 No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. Surround the image within the <a href=” “>…</a> tag combinations.
 
 17) If the user’s operating system does not support the needed character, how can the symbol be represented?
+17) Если операционная система пользователя не поддерживает необходимый символ, как символ может быть представлен?
 
 In cases wherein their operating system does not support a particular character, it is still possible to display that character by showing it as an image instead.
+В случаях, когда их операционная система не поддерживает определенный символ, все еще возможно отобразить этот символ, показав его вместо изображения.
 
 18) How do you change the number type in the middle of a list?
+18) Как вы меняете тип номера в середине списка?
 
 The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
+ Тег <li> включает в себя два атрибута - тип и значение. Атрибут type можно использовать для изменения типа нумерации для любого элемента списка. Атрибут значения может изменить числовой индекс.
+  Example:
+  <ol>
+<li value="30"> makes this list item number 30.
+<li value="40"> makes this list item number 40.
+<li> makes this list item number 41.
+</ol>
+  
+  We can specify the list’s style using the type attribute, with the following values:
+
+type attribute values and their corresponding list counter types
+
+<ol type=""> values	| Equivalent list-style-type
+--------------------|-----------------------------
+type="1" |	decimal (default style)
+type="a"	| lower-alpha
+type="A"	| upper-alpha
+type="i"	| lower-roman
+type="I"	| upper-roman
 
 19) What are style sheets?
 
