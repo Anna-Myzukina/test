@@ -93,6 +93,7 @@ In cases wherein their operating system does not support a particular character,
 
 The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
  Тег <li> включает в себя два атрибута - тип и значение. Атрибут type можно использовать для изменения типа нумерации для любого элемента списка. Атрибут значения может изменить числовой индекс.
+  <a href="http://html5doctor.com/ol-element-attributes/">Article about Attributes: type, start, value, and reversed</a>
   Example:
   <!--
   <ol>
